@@ -16,8 +16,9 @@
 
 %----------------------------------------------------------------------------------------
 
-\textsc{\LARGE Politechnika Warszawska}\\[5mm]
-\textsc{\LARGE Wydział Matematyki i Nauk Informacyjnych}\\[4cm]
+\textsc{\LARGE Politechnika Warszawska}\\[10mm]
+\textsc{\LARGE Wydział Matematyki i Nauk}\\[4mm]
+\textsc{\LARGE Informacyjnych}\\[4cm]
  
 %----------------------------------------------------------------------------------------
 
@@ -55,20 +56,29 @@ Niniejszy projekt ma na celu wykonanie uczącego się systemu, który na podstaw
 
 \section{Dane}
 
-Źródłem danych jest zbiór udostepniony przez ministerstwo transportu rządu Wielkiej Brytanii na stronie internetowej\\ \url{https://data.gov.uk/dataset/road-accidents-safety-data}. \\Dane obejmują informacje na temat wypadków drogowych na terenie Wielkiej Brytanii w latach 2009-2014.\\
+Źródłem danych są zbiory udostepnione przez ministerstwo transportu rządu Wielkiej Brytanii na stronach internetowych:
+\begin{itemize}
+    \item \url{https://data.gov.uk/dataset/road-accidents-safety-data}
+    \item \url{https://data.gov.uk/dataset/dft-eng-srn-routes-journey-times}
+\end{itemize}
+Dane obejmują informacje na temat wypadków drogowych na terenie Wielkiej Brytanii oraz średnich prędkościach przejazdu samochodów na danych odcinkach dróg w latach 2009-2014.
 
-Dane pobierane są jako zamknięty zbiór rekordów, natomiast wykorzystane będą w taki sposób, że symulowany będzie ich stopniowy (tygodniowy lub miesięczny) napływ. Dzieki temu system będzie przystosowany do obsługi danych pozyskiwanych na bieżąco. Dane będą napływały z czterech kanałów - informacje o wypadkach, o pojazdach, ich markach i modelach oraz o poszkodowanych. Zostaną one odpowiednio przefiltrowane zgodnie z potrzebami projektu, po czym będą skonsolidowane na podstawie unikalnego indentyfikatora wypadku. Do wstępnej fazy nauki, która poprzedza stopniowy napływ danych, system otrzyma do interpretacji pewną część danych (na przykład z całego 2009 roku).
+Dane pobierane są jako zamknięty zbiór rekordów, natomiast wykorzystane będą w taki sposób, że symulowany będzie ich stopniowy (tygodniowy lub miesięczny) napływ. Dzieki temu system będzie przystosowany do obsługi danych pozyskiwanych na bieżąco. Dane będą napływały z pięciu kanałów - informacje o wypadkach, o pojazdach, ich markach i modelach, o poszkodowanych oraz o średnich prędkościach przejazdu samochodów na danych odcinkach dróg. Zostaną one odpowiednio przefiltrowane zgodnie z potrzebami projektu, po czym będą skonsolidowane na podstawie unikalnego indentyfikatora wypadku oraz numeru drogi. Do wstępnej fazy nauki, która poprzedza stopniowy napływ danych, system otrzyma do interpretacji pewną część danych (na przykład z całego 2009 roku).
 
 %----------------------------------------------------------------------------------------
 
 \section{Cel projektu}
 
-Głównym celem projektu jest zapewnienie jednostkom policji informacji na temat przewidywanych wypadków w każdym z rejonów. System na podstawie takich danych jak na przykład pogoda, dzień tygodnia, stan drogi, lokalizacja geograficzna itp. przewiduje ilość wypadków oraz ich typ (z udziałem samochodów, motorów, śmiertelne, czy nie itp.). Rezultatem działania systemu będą tygodniowe lub miesięczne liczby wypadków z podziałem na pewne kategorie, takie jak na przykład region kraju, aktualna pogoda, rodzaj pojazdu itp. Po każdej prognozie system będzie miał możliwość zweryfikowania jej poprawności na podstawie napływających nowych danych, informacja ta będzie podstawą do dalszej nauki.
+Głównym celem projektu jest zapewnienie jednostkom policji informacji na temat przewidywanych wypadków w każdym z rejonów. System na podstawie takich danych jak na przykład pogoda, dzień tygodnia, stan drogi, lokalizacja geograficzna itp. przewiduje ilość wypadków. Rezultatem działania systemu będą tygodniowe lub dzienne liczby wypadków z podziałem na pewne kategorie, takie jak na przykład region kraju, aktualna pogoda, rodzaj pojazdu itp. Dzięki temu służby będą mogły odpowiednio przygotować się do możliwych wydarzeń.
+
+System ma również możliwość przewidywania stopnia obrażeń uczestników wypadków z wykorzystaniem danych o śrecnich prędkościach przejazdu samochodów na danych odcinkach dróg. Natychmiastowa prognoza jest użyteczna dla służb ratunkowych, ponieważ zakładamy, że dane o poszkodowanych napływają z kilkunastogodzinnym opóźnieniem.
+
+Po każdej prognozie system będzie miał możliwość zweryfikowania jej poprawności na podstawie napływających nowych danych, informacja ta będzie podstawą do dalszej nauki.
 
 %----------------------------------------------------------------------------------------
 
 \section{Sposób wykonania}
-Do prezentacji danych wyjściowych planowane jest zastosowanie kostek OLAP na przykład w technologii SAS, a także wykorzystanie Hadoop Spark.\\
+Do prezentacji danych wyjściowych planowane jest zastosowanie kostek OLAP na przykład w technologii SAS. Do przetwarzania danych wykorzystany zostanie między innymi Hadoop oraz Apache Spark.\\
 
 
 \end{document}
