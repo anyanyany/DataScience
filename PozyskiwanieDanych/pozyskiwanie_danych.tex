@@ -5,6 +5,9 @@
 \usepackage{hyperref}
 \frenchspacing
 \setcounter{tocdepth}{2}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{float}
 
 \begin{document}
 	
@@ -75,6 +78,12 @@ Użyte narzędzia:
     \item Spark
     \item HDFS
 \end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.6]{schemat}
+\caption{Schemat modułu pozyskiwania danych}
+\end{figure}
 
 W katalogu \textit{rawData} na maszynie wirtualnej umieszczone zostaną pliki w formacie CSV pięciu kategorii: wypadki, samochody, marki i modele samochodów, ofiary oraz średnie prędkości na poszczególnych odcinkach dróg. Dane o wypadkach, ofiarach, samochodach oraz ich markach i modelach pogrupowane są w pliki ze względu na rok, natomiast dla danych o prędkościach istnieją osobne pliki dla każdego miesiąca w danym roku.
 
