@@ -156,8 +156,17 @@ Dane ze wszystkich katalogów w HDFS (\textit{Accidents}, \textit{Speeds}, \text
 Przetwarzanie strumieniowe także korzystać będzie z danych znajdujących się w HDFS w katalogu Dictionaries i będzie realizować zadanie klasyfikacji.
 
 
+\section{Zadania modułu analitycznego}
 
+Moduł analityczny zostanie zrealizowany za pomocą oprogramowania Spark i będzie korzystał z danych przygotowanych przez moduł pozyskiwania danych. Zadaniem modułu analitycznego będzie:
+\begin{itemize}
+    \item generowanie okresowych prognoz liczby wypadków w danym rejonie
+    \item przewidywanie w trybie \emph{on-line} liczby ofiar i rodzaju ich obrażeń na podstawie danych o zdarzeniu drogowym
+\end{itemize}
 
+W celu generacji okresowych prognoz, dane będą przetwarzane w trybie wsadowym. Do generacji prognozy np. na konkretny tydzień zostaną użyte dane z całego wcześniejszego okresu od początku dostępności danych.
+
+Odpowiadanie na pytanie o stopień obrażeń uczestników wypadku zrealizowane zostanie przez przetwarzanie napływających danych w symulowanym trybie strumieniowym. System będzie miał do dyspozycji informacje o analizowanym zdarzeniu drogowym z wyjątkiem liczby ofiar i ich obrażeń oraz pełną informacje o wcześniej przetworzonych zdarzeniach.
 
 \end{document}
 
