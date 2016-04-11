@@ -53,7 +53,13 @@ Anna \textsc{Zawadzka}\\
 
 \section{Wstęp}
 
-Niniejszy projekt ma na celu wykonanie uczącego się systemu, który na podstawie pobieranych danych po odpowiednim ich przetworzeniu przygotowuje analizę w postaci prognozowania oraz  klasyfikacji. Pierwszym etapem projektu jest stworzenie modułu pozyskiwania danych.
+Niniejszy projekt ma na celu wykonanie uczącego się systemu, który na podstawie pobieranych danych po odpowiednim ich przetworzeniu przygotowuje analizę w postaci prognozowania oraz  klasyfikacji.\\
+
+Projekt polega na zebraniu oraz odpowiednim przetworzeniu danych zawierających informacje o wypadkach drogowych na terenie Wielkiej Brytanii, uczestniczących w nich pojazdach oraz poszkodowanych. Używane będą także informacje o prędkościach przejazdu samochodów na określonych odcinkach dróg. \\
+
+Wynikiem przetworzenia danych będą prognozy o możliwych wypadkach w zależności od różnych czynników oraz lokalizacji, a także klasyfikacja na bieżąco napływających danych o wypadkach ze względu na ich skalę.\\
+
+Dzięki takiej analizie i prognozowaniu możliwe będzie skoordynowanie rozmieszczenia  patroli policji zgodnie z przewidywaniami, a także dzięki klasyfikacji wypadków na poważne i mniej groźne, wiadomo będzie, do którego zdarzenia należy wysłać więcej karetek pogotowia, bądź innych służb porządkowych, co może znacznie usprawnić reagowanie na takie zdarzenia.
 
 %----------------------------------------------------------------------------------------
 
@@ -64,8 +70,56 @@ Niniejszy projekt ma na celu wykonanie uczącego się systemu, który na podstaw
     \item \url{https://data.gov.uk/dataset/road-accidents-safety-data}
     \item \url{https://data.gov.uk/dataset/dft-eng-srn-routes-journey-times}
 \end{itemize}
-Dane obejmują informacje na temat wypadków drogowych na terenie Wielkiej Brytanii oraz średnich prędkościach przejazdu samochodów na danych odcinkach dróg w latach 2009-2014. Przechowywane są w plikach o formacie CSV. Dane pobierane są jako zamknięty zbiór rekordów, natomiast wykorzystane będą jako dane napływające w czasie rzeczywistym. 
+Dane obejmują informacje na temat wypadków drogowych na terenie Wielkiej Brytanii oraz średnich prędkościach przejazdu samochodów na danych odcinkach dróg w latach 2009-2014. Przechowywane są w plikach o formacie CSV. Dane pobierane są jako zamknięty zbiór rekordów, natomiast wykorzystane będą jako dane napływające w czasie rzeczywistym. \\\\
+Dane na temat wypadków zawierają 4 kategorie plików:
+\begin{itemize}
+    \item Wypadki
+    \item Poszkodowani
+    \item Pojazdy
+    \item Marki pojazdów
+\end{itemize}
 
+Poniższa tabela prezentuje liczbę zmiennych (wszystkich, niezależnych i zależnych) w plikach z poszczególnych kategorii:\\
+
+\begin{tabular}{|r|r|r|r|r|}
+  \hline 
+    & Wypadki & Pojazdy & Poszkodowani & Marki pojazdów\\
+  \hline 
+  Wszystkie & 32 & 21 & 14 & 24\\
+  \hline
+  Niezależne & x & x & x & x\\
+  \hline
+  Zależne & y & y & y & y\\
+  \hline
+\end{tabular} \\
+
+TUTAJ WSZYSTKIE ZMIENNE Z INFO CZY ZALEŻNE CZY NIE
+
+
+Poniższa tabela reprezentuje liczbę rekordów w plikach danych kategorii w każdym roku:\\
+
+\begin{tabular}{|r|r|r|r|r|}
+  \hline 
+    & Wypadki & Pojazdy & Poszkodowani & Marki pojazdów\\
+  \hline 
+  2009 & 163555 & 298688 & 222147 & 182322\\
+  \hline
+  2010 & 154415 & 281402 & 208649 & 180368\\
+  \hline
+  2011 & 151475 & 276156 & 203951 & 180617\\
+  \hline
+  2012 & 145572 & 265878 & 195724 & 173860\\
+  \hline
+  2013 & 138661 & 252914 & 183671 & 171626\\
+  \hline
+  2014 & 146323 & 268528 & 194478 & 182354\\
+  \hline
+\end{tabular} 
+
+Łączny rozmiar tych danych (po 4 pliki dla każdego roku) to 377 MB.\\\\
+
+TU JESZCZE COŚ O PLIKACH Z PRĘDKOŚCIAMI\\
+Dla każdego miesiąca plik waży ok 0.8 GB (jest ich 72, 0.8x72=57.6)
 
 %----------------------------------------------------------------------------------------
 
