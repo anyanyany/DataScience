@@ -78,7 +78,6 @@ Dane na temat wypadków zawierają 4 kategorie plików:
     \item Pojazdy
     \item Marki pojazdów
 \end{itemize}
-
 Poniższa tabela prezentuje liczbę zmiennych (wszystkich, niezależnych i zależnych) w plikach z poszczególnych kategorii:\\
 
 \begin{tabular}{|r|r|r|r|r|}
@@ -87,15 +86,20 @@ Poniższa tabela prezentuje liczbę zmiennych (wszystkich, niezależnych i zale�
   \hline 
   Wszystkie & 32 & 21 & 14 & 24\\
   \hline
-  Niezależne & x & x & x & x\\
+  Niezależne & 27 & 21 & 14 & 23\\
   \hline
-  Zależne & y & y & y & y\\
+  Zależne & 5 & 0 & 0 & 1\\
   \hline
-\end{tabular} \\
-
-TUTAJ WSZYSTKIE ZMIENNE Z INFO CZY ZALEŻNE CZY NIE
-
-
+\end{tabular} \\[0.5cm]
+Pliki z danymi o wypadkach zawierają następujące zmienne zależne: %TODO: opisac po polsku
+\begin{itemize}
+    \item  Day of Week
+    \item  Location Easting OSGR 
+    \item  Location Northing OSGR 
+    \item  Local Authority (District)
+    \item  Local Authority (Highway Authority - ONS code)
+\end{itemize}\\
+Dane zawierające informacje o pojazdach wraz z markami i modelami zawierają jedną zmienną zależną - rok, w którym doszło do wypadku z udziałem danego pojazdu. Informację tę można uzyskać bezpośrednio z indentyfikatora wypadku.\\\\
 Poniższa tabela reprezentuje liczbę rekordów w plikach danych kategorii w każdym roku:\\
 
 \begin{tabular}{|r|r|r|r|r|}
@@ -114,12 +118,11 @@ Poniższa tabela reprezentuje liczbę rekordów w plikach danych kategorii w ka�
   \hline
   2014 & 146323 & 268528 & 194478 & 182354\\
   \hline
-\end{tabular} 
-
+\end{tabular} \\[0.3cm]
 Łączny rozmiar tych danych (po 4 pliki dla każdego roku) to 377 MB.\\\\
-
-TU JESZCZE COŚ O PLIKACH Z PRĘDKOŚCIAMI\\
-Dla każdego miesiąca plik waży ok 0.8 GB (jest ich 72, 0.8x72=57.6)
+Dane zawierające informacje o prędkościach przejazdu na określonych odcinkach dróg podzielone są ze względu na rok i miesiąc, łącznie 72 pliki CSV. Średnio rozmiar każdego pliku to 0.8 GB, zatem rozmiar całego zestawu danych zawierających informacje o prędkościach przejazdów to 57.6 GB.\\
+Dane te zawierają jędną zmienną zależną, jest to opis odcinka drogi (wskazanie skrzyżowań, między którymi znajduje się określony odcinek drogi).\\\\
+W projekcie używane będą również tabele słownikowe, których rozmiar to 447 KB. Będą one wczytywane jednorazowo i nie będą podlegać zmianie w trakcie działania systemu.
 
 %----------------------------------------------------------------------------------------
 
