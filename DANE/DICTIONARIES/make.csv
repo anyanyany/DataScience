@@ -1,0 +1,432 @@
+0,HONDA               
+1,FORD                
+2,ALEXANDER DENNIS    
+3,SUZUKI              
+4,JEEP                
+5,YAMAHA              
+6,BENTLEY             
+7,KYMCO               
+8,JAGUAR              
+9,PIAGGIO             
+10,VAUXHALL            
+11,CITROEN             
+12,VOLKSWAGEN          
+13,RENAULT             
+14,KIA                 
+15,AUDI                
+16,MERCEDES            
+17,TOYOTA              
+18,BMW                 
+19,PEUGEOT             
+20,MINI                
+21,DENNIS              
+22,VOLVO               
+23,CHEVROLET           
+24,LONDON TAXIS INT    
+25,KAISAR              
+26,KAWASAKI            
+27,MITSUBISHI          
+28,GILERA              
+29,MAZDA               
+30,SCANIA              
+31,MCC                 
+32,IVECO               
+33,CARBODIES           
+34,ROVER               
+35,DUCATI              
+36,MAN                 
+37,FIAT                
+38,SEAT                
+39,DAF TRUCKS          
+40,ALFA ROMEO          
+41,VESPA (DOUGLAS)     
+42,NISSAN              
+43,SUBARU              
+44,MERCEDES-BENZ       
+45,SMART               
+46,LAND ROVER          
+47,CHRYSLER            
+48,PORSCHE             
+49,LDV                 
+50,BUELL               
+51,APRILIA             
+52,HYUNDAI             
+53,KTM                 
+54,SUNBEAM             
+55,DAELIM              
+56,SKODA               
+57,YIYING              
+58,TRIUMPH             
+59,MG                  
+60,CCM                 
+61,SAAB                
+62,LEXUS               
+63,MASERATI            
+64,LOTUS               
+65,FERRARI             
+66,ASTON MARTIN        
+67,TRANSBUS INT        
+68,IVECO-FORD          
+69,MOTO GUZZI          
+70,DAF                 
+71,TAIWAN GOLDEN BEE   
+72,SANBEN              
+73,LEYLAND             
+74,RELIANT             
+75,SEDDON/ATKINSON     
+76,ERF                 
+77,ISUZU TRUCKS        
+78,BAOTIAN             
+79,VAN HOOL            
+80,SACHS               
+81,HARLEY-DAVIDSON     
+82,NEW HOLLAND         
+83,JCB                 
+84,ELECTRICARS         
+85,AJS                 
+86,HINO                
+87,KEEWAY              
+88,OPEL                
+89,DAIHATSU            
+90,ISUZU               
+91,DAEWOO              
+92,VICTORY             
+93,VECTRIX             
+94,HYOSUNG             
+95,LEYLAND AEC         
+96,TEMSA               
+97,DAIMLER             
+98,LONGJIA             
+99,SSANGYONG           
+100,BSA                 
+101,AUSTIN MORRIS       
+102,LEYLAND DAF         
+103,TALBOT              
+104,FODEN               
+105,OPTARE              
+106,MASSEY FERGUSON     
+107,DERBI               
+108,MALAGUTI            
+109,LINCOLN             
+110,DI BLASSI           
+111,BENELLI             
+112,DAIFO               
+113,LONCIN              
+114,PROTON              
+115,PIONEER             
+116,LML                 
+117,CPI                 
+118,PULSE               
+119,REGENT              
+120,CADILLAC            
+121,MITSUBISHI FUSO     
+122,BETTER              
+123,PERODUA             
+124,LAMBRETTA           
+125,JOHN DEERE          
+126,SHINERAY            
+127,QINGQI              
+128,CASE IH             
+129,RIEJU               
+130,DODGE (USA)         
+131,HAOTIAN             
+132,SINSKI              
+133,SYM                 
+134,MZ                  
+135,PGO                 
+136,APPLIED SWEEPER     
+137,CHEVROLET GMC       
+138,HUATIAN             
+139,GEELY               
+140,SUPERBYKE           
+141,SMITHS              
+142,TAMORETTI           
+143,RENAULT TRUCKS      
+144,JONWAY              
+145,MBK                 
+146,ZNEN                
+147,SUKIDA              
+148,WUYANG              
+149,YIBEN MEIDUC        
+150,VALTRA              
+151,BENFORD             
+152,EASY RIDER          
+153,IRIS.BUS            
+154,LIFAN               
+155,KINROAD             
+156,MORRIS              
+157,TATA                
+158,CI MOTORHOME        
+159,DIRT PRO            
+160,XINGYUE             
+161,ITALJET             
+162,WANGYE              
+163,DAYANG              
+164,MCW                 
+165,AIXAM               
+166,SONIK               
+167,BAJAJ               
+168,MV AGUSTA           
+169,POLARIS             
+170,URBAN               
+171,CAGIVA              
+172,CATERHAM            
+173,SKYGO               
+174,MANITOU             
+175,JINLUN              
+176,HUONIAO             
+177,ABARTH              
+178,SANLI               
+179,VALMET              
+180,HARTFORD            
+181,RILEY               
+182,FENDT               
+183,BETA                
+184,CLAAS               
+185,FOSTI               
+186,GENERIC             
+187,TVR                 
+188,ZETOR               
+189,HUSQVARNA           
+190,AUSTIN              
+191,SKYTEAM             
+192,ZHENHUA             
+193,CASE                
+194,SETRA               
+195,VDL                 
+196,HUMMER              
+197,CROMPTON (LEYLAND)  
+198,METROCAB            
+199,SMC                 
+200,SCHMIDT             
+201,Z Y MOTOR           
+202,BTM                 
+203,MICROCAR            
+204,DAJIANG             
+205,BOVA                
+206,DOUGLAS             
+207,MOTOR HISPANIA      
+208,NIPPI               
+209,FORD NEW HOLLAND    
+210,SKYJET              
+211,ROYAL ENFIELD       
+212,MCCORMICK           
+213,BEDFORD             
+214,MOTO ROMA           
+215,GIANTCO             
+216,LEYLAND NATIONAL    
+217,RANSOME             
+218,HUASHA              
+219,YUAN                
+220,MEGELLI             
+221,KUBOTA              
+222,TEC                 
+223,LAMBORGHINI         
+224,THWAITES            
+225,KARRIER             
+226,GAS GAS             
+227,DEUTZ FAHR          
+228,UNIVERSAL           
+229,BRISTOL (BLMC)      
+230,DODGE               
+231,BMC                 
+232,DINLI               
+233,GROVE COLES         
+234,ROLLS ROYCE         
+235,CHITUMA             
+236,NORTON              
+237,FANTIC MOTOR        
+238,BOMBARDIER          
+239,SANYANG             
+240,DATSUN              
+241,VULCAN              
+242,HONGDOU             
+243,MATBRO              
+244,BASHAN              
+245,SCAMMELL            
+246,FYM                 
+247,AUTO-TRAIL          
+248,ACCESS              
+249,LEYLAND CARS        
+250,WESTFIELD           
+251,LEXMOTO             
+252,W+E                 
+253,JAWA                
+254,CH RACING           
+255,JAMES               
+256,PONTIAC             
+257,AUSTIN HEALEY       
+258,SIAMOTO             
+259,MORGAN              
+260,HUSABERG            
+261,CATERPILLAR         
+262,ZENNCO              
+263,LIEBHERR            
+264,GINETTA             
+265,ADLY                
+266,VELOCETTE           
+267,MERLO               
+268,ZONGSHEN            
+269,URAL                
+270,BAROSSA             
+271,LADA                
+272,TOMOS               
+273,QUADZILLA           
+274,MERCURY             
+275,BOMAG               
+276,TAISHAN             
+277,KINGTON             
+278,JORDAN              
+279,MOBYLETTE           
+280,CSR                 
+281,BRANSON             
+282,NEOPLAN             
+283,BARON               
+284,LEIKE               
+285,BUICK               
+286,SHENKE              
+287,HOLDEN              
+288,CZ                  
+289,PUCH                
+290,TM                  
+291,MAN/VW              
+292,DENNIS FIRE         
+293,SANTANA             
+294,MATCHLESS           
+295,MARSHALL            
+296,JIALING             
+297,CAN-AM              
+298,HUMBER              
+299,SITCAR              
+300,SAME                
+301,TRIGANO             
+302,FORDSON             
+303,AUTOSAN             
+304,HIMO                
+305,COSSACK             
+306,HYSTER              
+307,JINCHENG            
+308,REVA                
+309,POR                 
+310,OXYGEN              
+311,INFINITI            
+312,JOHNSTON SWEEPERS   
+313,WARRIOR             
+314,JM STAR             
+315,BOOM                
+316,LANCIA              
+317,SAVIEM              
+318,HONGYI              
+319,SANYA               
+320,WHITE KNUCKLE       
+321,ZHONGNENG           
+322,SECMA               
+323,LANDINI             
+324,SFMM                
+325,BEELINE             
+326,FREIGHT ROVER       
+327,MUIR-HILL           
+328,JENSEN              
+329,THUMPSTAR           
+330,STEYR               
+331,LAVERDA             
+332,NSU                 
+333,AVIA                
+334,DEMM                
+335,XINLING             
+336,INT. HARVESTER      
+337,MARCOS              
+338,DAVID BROWN         
+339,POCLAIN             
+340,HER CHE             
+341,SCORPA              
+342,ALL WHEEL DRIVE     
+343,CAETANO             
+344,AEBI                
+345,ROADLESS            
+346,HILLMAN             
+347,PANTHER             
+348,BRIT JEFFREY DIAMOND
+349,SHIRE               
+350,MAYBACH             
+351,MODEC               
+352,WRIGHTBUS           
+353,KING LONG           
+354,NECO                
+355,HURLIMANN           
+356,LIGIER              
+357,DAYUN               
+358,KATO                
+359,NORTON VILLIERS     
+360,JIANSHE             
+361,CF MOTO             
+362,EOS                 
+363,ZONTES              
+364,NECHT               
+365,BELARUS             
+366,AEON                
+367,HANWAY              
+368,RHON                
+369,FEIYING             
+370,GARELLI             
+371,ORION               
+372,RALEIGH             
+373,MOTO MORINI         
+374,VANDEN PLAS         
+375,AC (ELECTRIC)       
+376,LEYLAND AM          
+377,CHUNLAN             
+378,WARTBURG            
+379,TONG YANG           
+380,SWAP                
+381,NUFFIELD            
+382,AVELING BARFORD     
+383,COMMER              
+384,NORTON VILL. TRIUMPH
+385,WK BIKES            
+386,KAZUMA              
+387,WOLSELEY            
+388,SHERCO              
+389,BCS                 
+390,BITELLI             
+391,JAXIN               
+392,ASIA                
+393,BARONI              
+394,ACURA               
+395,KOMATSU             
+396,VERTEMATI           
+397,BRISTOL             
+398,NEVAL               
+399,TESLA               
+400,DACIA               
+401,FOREST RIVER        
+402,CASAL               
+403,MAXUS               
+404,GSMOON              
+405,HERALD MOTOR COMPANY
+406,JCM                 
+407,ISEKI               
+408,SFM                 
+409,NIPPONIA            
+410,BOND                
+411,OLDSMOBILE          
+412,GREAT WALL          
+413,JACOBSEN            
+414,MOTOR JIKOV         
+415,SUZUKO              
+416,SINNIS              
+417,XGJAO               
+418,GROVE               
+419,CHONGQING           
+420,KSR MOTO            
+421,AJP                 
+422,MOTOBI              
+423,KINLON              
+424,CTM                 
+425,MIG                 
+426,MGXPOWER            
+427,KIOTI               
+428,REWACO              
+429,BRITISH TRACKSTAR   
+430,INDIAN              
+431,CHAUSSON            

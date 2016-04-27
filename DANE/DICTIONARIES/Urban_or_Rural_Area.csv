@@ -1,4 +1,4 @@
-code;label
-1;Urban
-2;Rural
-3;Unallocated
+id,code,label
+0,1,Urban
+1,2,Rural
+2,3,Unallocated

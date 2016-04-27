@@ -1,8 +1,8 @@
-code;label
-0;Not at junction or within 20 metres
-1;Motorway
-2;A(M)
-3;A
-4;B
-5;C
-6;Unclassified
+id,code,label
+0,0,Not at junction or within 20 metres
+1,1,Motorway
+2,2,A(M)
+3,3,A
+4,4,B
+5,5,C
+6,6,Unclassified
